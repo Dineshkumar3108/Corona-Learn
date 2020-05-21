@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var tilt: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("COVID-19")
         tilt.layer.cornerRadius = 10
         tilt.layer.masksToBounds = true
         
